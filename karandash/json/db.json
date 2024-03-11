@@ -1,0 +1,159 @@
+{
+    "categories": [
+        {
+            "categoryName": "Pencils",
+            "products": [
+                {
+                    "id": 1,
+                    "img": "../lib/img/products/pencils/hema-pencil.jpeg",
+                    "img1": "./lib/img/products/pencils/jumbo-sparkle.jpg",
+                    "img2": "./lib/img/products/pencils/apple-pencil.jpg",
+                    "img3": "./lib/img/products/pencils/speedball-art.jpg",
+                    "productName": "Hema Pencil",
+                    "brand":"Hema",
+                    "price": 1099,
+                    "discount": 200.1,
+                    "colorInImage": "Blue",
+                    "stars": 4,
+                    "description":"infoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfo",
+                    "colors": [
+                        {
+                            "name":"red"
+                        },
+                        {
+                            "name":"blue"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "img": "./lib/img/products/pencils/jumbo-sparkle.jpg",
+                    "img1": "./lib/img/products/pencils/speedball-art.jpg",
+                    "img2": "./lib/img/products/pencils/apple-pencil.jpg",
+                    "productName": "Jumbo Sparkle",
+                    "brand":"Jumbo",
+                    "price": 799,
+                    "discount": 99.1,
+                    "colorInImage": "Purple",
+                    "stars": 5,
+                    "description":"infoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfo",
+                    "colors": [
+                        {
+                            "name":"purple"
+                        },
+                        {
+                            "name":"yellow"
+                        },
+                        {
+                            "name":"green"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "img": "./lib/img/products/pencils/apple-pencil.jpg",
+                    "productName": "Apple Pencil",
+                    "brand":"Apple",
+                    "price": 30000,
+                    "discount": 1000,
+                    "colorInImage": "White",
+                    "stars": 5,
+                    "description":"infoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfo",
+                    "colors": [
+                        {
+                            "name":"white"
+                        },
+                        {
+                            "name":"blue"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "img": "./lib/img/products/pencils/speedball-art.jpg",
+                    "img1": "./lib/img/products/pencils/apple-pencil.jpg",
+                    "productName": "Speedball Art",
+                    "brand":"Speedball",
+                    "price": 1700,
+                    "discount": 199.1,
+                    "colorInImage": "Green",
+                    "stars": 3,
+                    "description":"infoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfo",
+                    "colors": [
+                        {
+                            "name":"blue"
+                        },
+                        {
+                            "name":"green"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "categoryName": "Notebooks",
+            "products": [
+                {
+                    "id": 1,
+                    "img": "./lib/img/products/notebooks/kanz-exmo.png",
+                    "productName": "Kanz Exmo",
+                    "brand":"Kanz",
+                    "price": 1199,
+                    "discount": 1000,
+                    "colorInImage": "Brown",
+                    "stars": 4,
+                    "description":"infoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfo",
+                    "colors": [
+                        {
+                            "name":"brown"
+                        },
+                        {
+                            "name":"red"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "categoryName": "Toys",
+            "products": [
+                {
+                    "id": 1,
+                    "img": "./lib/img/products/toys/blue-stich.png",
+                    "img1": "./lib/img/products/pencils/apple-pencil.jpg",
+                    "productName": "Blue Stich",
+                    "brand": "Blue",
+                    "price": 1200,
+                    "discount": 200,
+                    "colorInImage": "Blue",
+                    "stars": 5,
+                    "description":"infoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfo",
+                    "colors": [
+                        {
+                            "name":"blue"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "categoryName": "Books",
+            "products": [
+                {
+                
+                }
+            ]
+        }
+    ],
+    "slider": [
+        {
+            "image": "../lib/img/slider-img.png"
+        },
+        {
+            "image": "../lib/img/slider-img.png"
+        },
+        {
+            "image": "../lib/img/slider-img.png"
+        }
+    ]
+}

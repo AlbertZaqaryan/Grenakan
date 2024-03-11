@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./lib/css/font.css">
+        <link rel="stylesheet" href="./lib/css/normalize.css">
+        <link rel="stylesheet" href="./lib/css/pages/index.css">
+        <link rel="stylesheet" href="./lib/css/pages/products.css">
+        <link rel="stylesheet" href="./lib/css/pages/product.css">
+        <link rel="stylesheet" href="./lib/css/media.css">
+        <link rel="stylesheet" href="./lib/css/animations.css">
+        <link rel="stylesheet" href="./lib/css/scrollbar.css">
+        <title>Karandash Start Page</title>
+    </head>
+    <body>
+
+        <div class="page">  
+            
+            <div class="page__loading"> <div class="page__loading_circle"> <div class="page__loading_second_circle"></div> </div> </div>
+            
+            <header class="page__header header">
+                <div class="header__topSide">
+                    <navbar class="header__topSide__navbar navbar">
+                        <a href="./index.html" class="navbar__btn" id="logoBtn">
+                            <img src="./lib/img/karandash-logo.png" height="30" alt="logo">
+                        </a>
+                        <a href="./products.html" class="navbar__btn">Products</a>
+                        <a href="#" class="navbar__btn">Best Seller</a>
+                        <a href="#" class="navbar__btn">Top</a>
+                        <a href="#" class="navbar__btn">Bottom</a>
+                        <a href="#" class="navbar__btn">Lifestyle</a>
+                        <a href="#" class="navbar__btn">About</a>
+
+                        <div class="navbar__userBtns">
+                            <button>
+                                <img src="./lib/img/svg/search.svg" alt="search">
+                            </button>
+
+                            <button id="loginBtn">
+                                <img src="./lib/img/svg/profile.svg" alt="profile">
+                            </button>
+
+                            <button id="cartBtn">
+                                 <span class="cart__products_count" id="cartProductsCount">0</span>
+
+                                <img src="./lib/img/svg/cart.svg" alt="cart">
+                            </button>
+                        </div>
+                    </navbar>
+                </div>
+            </header>
+
+            <main class="page__main main">
+                <div class="main__products_loading_modal"><div class="page__loading_circle"> <div class="page__loading_second_circle"></div> </div></div>
+
+                <button class="main__back_btn">
+                    <img src="./lib/img/svg/cartCloseBtn.svg" alt="back_btn_image" width="25">
+                </button>
+
+                <div class="main__cart cart closed">
+                    <div class="cart__title_box">
+                        <h2 class="cart__title">Your Cart</h2>
+
+                        <button class="cart_closeBtn" id="cartCloseBtn">
+                            <img src="./lib/img/svg/cartCloseBtn.svg" alt="closeBtnImg" width="25">
+                        </button>
+                    </div>
+
+                    <div class="cart__products">
+
+                        <h1>Cart Is Empty</h1>
+                    </div>
+                </div>
+
+                <div class="main__cart_effect"></div>
+            </main>
+
+            <footer class="page__footer footer">
+                
+            </footer>
+        </div>
+
+        <script src="./lib/js/pages/product.js" type="module"></script>
+    </body>
+</html>

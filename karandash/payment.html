@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./lib/css/font.css">
+        <link rel="stylesheet" href="./lib/css/normalize.css">
+        <link rel="stylesheet" href="./lib/css/pages/index.css">
+        <link rel="stylesheet" href="./lib/css/pages/products.css">
+        <link rel="stylesheet" href="./lib/css/pages/product.css">
+        <link rel="stylesheet" href="./lib/css/pages/payment.css">
+        <link rel="stylesheet" href="./lib/css/media.css">
+        <link rel="stylesheet" href="./lib/css/animations.css">
+        <link rel="stylesheet" href="./lib/css/scrollbar.css">
+        <title>Karandash Start Page</title>
+    </head>
+    <body>
+
+        <div class="page">  
+            
+            <div class="page__loading"> <div class="page__loading_circle"> <div class="page__loading_second_circle"></div> </div> </div>
+            
+            <header class="page__header header">
+                <div class="header__topSide">
+                    <navbar class="header__topSide__navbar navbar">
+                        <a href="./index.html" class="navbar__btn" id="logoBtn">
+                            <img src="./lib/img/karandash-logo.png" height="30" alt="logo">
+                        </a>
+                    </navbar>
+                </div>
+            </header>
+
+            <main class="page__main main">
+                <div class="main__payment_side">
+                    <div class="main__payment_parameters">
+
+                        <div class="main__payment_parameters_path">
+                            <div>Choose Products</div>
+
+                            <div class="active">Payment</div>
+                        </div>
+
+                        <h2 class="main__payment_parameters_title">Payment Method</h2>
+
+                        <div class="main__payment_parameters_variants">
+                            
+                            <div>
+                                <input type="radio" name="paymentType">
+
+                                <label for="paymentType">Card</label>
+                            </div>
+
+                            <div>
+                                <input type="radio" name="paymentType">
+
+                                <label for="paymentType">Paypal</label>
+                            </div>
+                        </div>
+
+                        <div class="main__payment_parameters_inputs">
+
+                            <input type="text" name="nameOnCard" id="nameOnCard" placeholder="Name On Card">
+                            
+                            <input type="number" name="cardNumber" id="cardNumber" placeholder="Card Number" maxlength="16">
+                            
+                            <input type="text" name="expiryDate" id="expiryDate" placeholder="Expiry Date (DD/MM/YY)">
+                            
+                            <input type="text" name="cvc" id="cvc" placeholder="CVC" maxlength="4">
+                        </div>
+
+                        <button id="completeBtn">Complete Purchase</button>
+                    </div>
+                </div>
+
+                <div class="main__payment_side">
+                    <div class="main__payment_cart_products_and_details">
+                        <div class="main__payment_cart_products" id="products"></div>
+
+                        <div class="main__payment_cart_prices">
+                            <div class="main__payment_cart_prices_price_line">
+                                <span>Subtotal</span>
+
+                                <span id="subtotalPrice">Դ0.00</span>
+                            </div>
+
+                            <div class="main__payment_cart_prices_price_line">
+                                <span>Discount</span>
+
+                                <span id="discountPrice">Դ0.00</span>
+                            </div>
+                        </div>
+
+                        <div class="main__payment_cart_final_price">
+                            <span>Total</span>
+
+                            <span id="totalPrice">Դ0.00</span>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <footer class="page__footer footer">
+                
+            </footer>
+        </div>
+
+        <script src="./lib/js/pages/payment.js" type="module"></script>
+    </body>
+</html>
